@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="image/x-icon" href="nl.jpg">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Abel&family=Barlow+Condensed:wght@100&family=Barlow+Semi+Condensed:wght@300&family=Rajdhani:wght@300&family=Roboto+Condensed:wght@300&family=Saira+Condensed:wght@100&family=Tulpen+One&display=swap" rel="stylesheet">>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Oswald:wght@100&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Barlow+Semi+Condensed:wght@100&family=Oswald:wght@200&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Barlow+Condensed:wght@100&family=Barlow+Semi+Condensed:wght@300&family=Oswald:wght@200&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Barlow+Condensed:wght@100&family=Barlow+Semi+Condensed:wght@300&family=Oswald:wght@200&family=Roboto+Condensed:wght@300&family=Saira+Condensed:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <meta name="description" content="Generate the most realistic images with AI | Stable Diffusion Image Generator | AI image generator | Text To Image AI">
+    <title>Free AI Image Generator | Stable Diffusion Image Generator | Text To Image AI
+    </title>
+</head>
+<body>
+   
+
+  <style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /* Make the body and html fill the viewport */
+  body, html {
+    height: 100%;
+    overflow: hidden;
+  }
+   /* Style the iframe container */
+   .iframe-container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+
+  /* Position the iframe inside the container */
+  #i {
+    width: 100%;
+    height: calc(100% + 150px);
+    transform: translateY(-33px);
+    border: none;
+  }
+  @media screen and (min-width:500px) and (max-width:800px){
+    #i{
+      height: calc(100% + 280px);
+      transform: translateY(-10px);
+    }
+  }
+  </style>
+    
+<div class="iframe-container">
+  <iframe src='' id="i"></iframe>
+</div>
+
+
+
+
+
+
+<h1>AI Immage generator | Stable Diffusion Image Generator | Text to image AI</h1>
+<h2>Free stable diffusion image generator | free AI image generator</h2>
+
+
+  <dialog id="d">
+    <p>Join Our discord for electrosion latest news and be the first to try our upcoming features. interact with our amazing Community share your feedback and opinions with us!</p>
+    <button id="open">JOIN DISCORD</button>
+    <button id="close">close</button>
+  </dialog>
+
+<script>
+ let btn =  document.getElementById('d')
+ let bt = document.getElementById('open')
+ bt.onclick = ()=>{
+  window.open('https://discord.gg/U3RA9mbWm')
+ }
+ setTimeout(()=>{
+  btn.show()
+ },4000)
+ let cb = document.getElementById('close')
+ cb.onclick = ()=>{
+  btn.close()
+ }
+ setTimeout(()=>{
+  alert('if you face any "ERROR" then please refresh the page it will work its because of high traffic or change ')
+ },12000)
+ setInterval(()=>{
+  alert('if you face any "ERROR" then please refresh the page it will work its because of high traffic or change ')
+ },72000)
+ document.getElementById('i').src = 'https://images-xr.samirawm7.repl.co/';
+</script>
+<script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.2.0/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.2.0/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyBTTX_lemezj1385jz-TC4JKOIYqOm4KB4",
+      authDomain: "electrosion.firebaseapp.com",
+      projectId: "electrosion",
+      storageBucket: "electrosion.appspot.com",
+      messagingSenderId: "647215897639",
+      appId: "1:647215897639:web:28a6bf558e20206d420202",
+      measurementId: "G-9DV9H2GZML"
+    }; 
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
+
+
+</body>
+</html>
